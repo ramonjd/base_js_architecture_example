@@ -1,0 +1,31 @@
+{
+  "name": "bower-packages",
+  "version": "0.0.1",
+  "authors": [
+    "Someone <someone@domain.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.2",
+    "jquery": "~2.1.1",
+    "requirejs": "~2.1.13",
+    "underscore": "~1.6.0",
+    "requirejs-i18n": "~2.0.4"
+  },
+  "devDependencies": {},
+
+  "exportsOverride": {
+    "modernizr": {
+      "/": "modernizr.js"
+    },
+    "requirejs-i18n": {
+      "/": "i18n.js"
+    }
+  }
+}
